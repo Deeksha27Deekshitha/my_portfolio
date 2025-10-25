@@ -42,5 +42,5 @@ My portfolio highlights some of my best work — from web projects to data analy
 
 ---
 
-## 📂 Project Structure  
+
 
