@@ -108,19 +108,19 @@
 .zoom-effect:hover {
   transform: scale(1.1);
 }
-
+/* h2 animation */
 	#role-animation {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
-    color: #ffffff;
+    color: white;
     display: inline-block;
+    border-right: 2px solid #ffbd39;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid #ffbd39;
-    animation: blinkCursor 0.8s infinite;
+    animation: blink 0.7s infinite;
 }
 
-@keyframes blinkCursor {
+@keyframes blink {
     50% {
         border-color: transparent;
     }
@@ -197,14 +197,8 @@
 						// Start the typing animation loop
 						playTypingAnimation(typingTexts[0]);
 
-						</script>
-
-						<br>
-<br>
-
-<h2 id="role-animation"></h2>
-
-<script>
+		<h2 id="role-animation"></h2>
+			<script>
 const roleElement = document.getElementById("role-animation");
 
 const roles = [
@@ -218,11 +212,11 @@ let charIndex = 0;
 
 function typeRole() {
     if (charIndex < roles[roleIndex].length) {
-        roleElement.textContent += roles[roleIndex].charAt(charIndex);
+        roleElement.textContent += roles[roleIndex][charIndex];
         charIndex++;
         setTimeout(typeRole, 120);
     } else {
-        setTimeout(eraseRole, 1500);
+        setTimeout(eraseRole, 1200);
     }
 }
 
