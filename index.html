@@ -175,6 +175,10 @@
 						// Create an array of typing text
 						const typingTexts = [
 						'MCA Gradute'
+							<br>
+							 "Python Developer",
+  							 "Data Analyst",
+  							  "SQL Developer"
 						];
 
 						// Create a function to display the typing animation for a given text
@@ -199,41 +203,42 @@
 						<br>
 
 		<h2 id="role-animation"></h2>
-			<script>
-const roleElement = document.getElementById("role-animation");
+// 			<script>
+// const roleElement = document.getElementById("role-animation");
 
-const roles = [
-    "Python Developer",
-    "Data Analyst",
-    "SQL Developer"
-];
+// const roles = [
+//     "Python Developer",
+//     "Data Analyst",
+//     "SQL Developer"
+// ];
 
-let roleIndex = 0;
-let charIndex = 0;
+// let roleIndex = 0;
+// let charIndex = 0;
 
-function typeRole() {
-    if (charIndex < roles[roleIndex].length) {
-        roleElement.textContent += roles[roleIndex][charIndex];
-        charIndex++;
-        setTimeout(typeRole, 120);
-    } else {
-        setTimeout(eraseRole, 1200);
-    }
-}
+// function typeRole() {
+//     if (charIndex < roles[roleIndex].length) {
+//         roleElement.textContent += roles[roleIndex][charIndex];
+//         charIndex++;
+//         setTimeout(typeRole, 120);
+//     } else {
+//         setTimeout(eraseRole, 1200);
+//     }
+// }
 
-function eraseRole() {
-    if (charIndex > 0) {
-        roleElement.textContent = roles[roleIndex].substring(0, charIndex - 1);
-        charIndex--;
-        setTimeout(eraseRole, 60);
-    } else {
-        roleIndex = (roleIndex + 1) % roles.length;
-        setTimeout(typeRole, 300);
-    }
-}
+// function eraseRole() {
+//     if (charIndex > 0) {
+//         roleElement.textContent = roles[roleIndex].substring(0, charIndex - 1);
+//         charIndex--;
+//         setTimeout(eraseRole, 60);
+//     } else {
+//         roleIndex = (roleIndex + 1) % roles.length;
+//         setTimeout(typeRole, 300);
+//     }
+// }
 
-typeRole();
-</script>
+// typeRole();
+// </script
+//
 					
 						
 						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
