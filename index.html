@@ -109,6 +109,22 @@
   transform: scale(1.1);
 }
 
+	#role-animation {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #ffbd39;
+    animation: blinkCursor 0.8s infinite;
+}
+
+@keyframes blinkCursor {
+    50% {
+        border-color: transparent;
+    }
+}
 
 </style>
 
@@ -184,8 +200,45 @@
 						</script>
 
 						<br>
-						<br>
-						<h2> Python Developer | Data Analyst </h2>
+<br>
+
+<h2 id="role-animation"></h2>
+
+<script>
+const roleElement = document.getElementById("role-animation");
+
+const roles = [
+    "Python Developer",
+    "Data Analyst",
+    "SQL Developer"
+];
+
+let roleIndex = 0;
+let charIndex = 0;
+
+function typeRole() {
+    if (charIndex < roles[roleIndex].length) {
+        roleElement.textContent += roles[roleIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(typeRole, 120);
+    } else {
+        setTimeout(eraseRole, 1500);
+    }
+}
+
+function eraseRole() {
+    if (charIndex > 0) {
+        roleElement.textContent = roles[roleIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(eraseRole, 60);
+    } else {
+        roleIndex = (roleIndex + 1) % roles.length;
+        setTimeout(typeRole, 300);
+    }
+}
+
+typeRole();
+</script>
 					
 						
 						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
