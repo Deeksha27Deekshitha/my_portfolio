@@ -9312,17 +9312,16 @@ textarea.form-control {
   letter-spacing: .1em; }
 
 .block-20 {
-  /* overflow: hidden;
+  overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
   display: block;
   width: 100%;
-  height: 180px;  */
+  /* height: 180px;  */
    height:220px;
-    background-size:cover;
-    background-position:center;}
+ }
 
 .blog-entry {
    display:flex;
