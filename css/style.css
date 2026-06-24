@@ -9362,11 +9362,6 @@ textarea.form-control {
       .blog-entry .meta a:hover {
         color: #ffbd39; }
 
-.blog-entry p{
-    flex-grow:1;
-    margin-bottom:0;
-}
-
 .block-23 ul {
   padding: 0; }
   .block-23 ul li, .block-23 ul li > a {
