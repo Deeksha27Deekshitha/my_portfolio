@@ -9312,20 +9312,25 @@ textarea.form-control {
   letter-spacing: .1em; }
 
 .block-20 {
-  overflow: hidden;
+  /* overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
   display: block;
   width: 100%;
-  height: 180px; }
+  height: 180px;  */
+   height:220px;
+    background-size:cover;
+    background-position:center;}
 
 .blog-entry {
-   position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 100%; }
+   display:flex;
+    flex-direction:column;
+    width:100%;
+    height:100%;
+    background:#111;
+    border-radius:10px; }
   @media (min-width: 768px) {
     .blog-entry {
       margin-bottom: 30px; } }
@@ -9333,16 +9338,13 @@ textarea.form-control {
     .blog-entry {
       margin-bottom: 30px; } }
   .blog-entry .text {
-   width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  flex: 1; }
+  display:flex;
+    flex-direction:column;
+    flex:1;
+    padding-top:18px; }
     .blog-entry .text .heading {
-     font-size: 20px;
-  margin-bottom: 16px;
-  font-weight: 500;
-  min-height: 55px;  }
+     min-height:70px;
+    line-height:1.4;  }
       .blog-entry .text .heading a {
         color: #fff; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
@@ -9360,8 +9362,10 @@ textarea.form-control {
       color: #ffbd39; }
       .blog-entry .meta a:hover {
         color: #ffbd39; }
-.blog-entry .text p {
-  flex-grow: 1;
+
+.blog-entry p{
+    flex-grow:1;
+    margin-bottom:0;
 }
 
 .block-23 ul {
