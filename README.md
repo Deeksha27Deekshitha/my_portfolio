@@ -13,8 +13,10 @@ Built with ❤️ to reflect who I am — a motivated and enthusiastic individua
 
 ## 🖋️ About Me  
 
-Hi! I'm Deekshitha V, an MCA graduate passionate about **Python Development, Django, SQL, and Data Analytics**. I enjoy developing web applications, analyzing data, and building interactive dashboards that solve real-world problems. My portfolio showcases projects in Python, Django, SQL, Power BI, and web development.
+Hi! I'm Deekshitha V, an MCA graduate with a strong interest in **Python Development, Django, SQL, and Data Analytics**. I enjoy building web applications, analyzing data, and creating interactive dashboards that provide meaningful insights and practical solutions. My portfolio showcases projects in Python, Django, SQL, Power BI, and data analytics.
+
 ---
+
 
 ## 🛠️ Tech Stack  
 
