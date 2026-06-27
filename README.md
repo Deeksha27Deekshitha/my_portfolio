@@ -13,21 +13,18 @@ Built with ❤️ to reflect who I am — a motivated and enthusiastic individua
 
 ## 🖋️ About Me  
 
-Hi! I’m **Deekshitha V**, a fresher passionate about exploring the field of **Data Analytics and Web Technologies**.  
-I love turning data into insights and ideas into impactful digital experiences.  
-My portfolio highlights some of my best work — from web projects to data analysis dashboards.  
-
+Hi! I'm Deekshitha V, an MCA graduate passionate about **Python Development, Django, SQL, and Data Analytics**. I enjoy developing web applications, analyzing data, and building interactive dashboards that solve real-world problems. My portfolio showcases projects in Python, Django, SQL, Power BI, and web development.
 ---
 
 ## 🛠️ Tech Stack  
 
 | Category | Technologies |
 |-----------|--------------|
-| 💻 **Frontend** | HTML5, CSS3, JavaScript, React JS |
-| 📊 **Data Tools** | Python, Pandas, Power BI, Excel, SQL, Tableau |
-| ⚙️ **Version Control** | Git, GitHub |
-| 🎨 **Design Tools** | Canva, Figma |
-| ☁️ **Deployment** | GitHub Pages / Vercel |
+| 💻 **Programming Languages** | Python, SQL, JavaScript |
+| 🌐 **Web Development** | Django, HTML5, CSS3, Bootstrap |
+| 📊 **Data Analytics & Visualization** | Pandas, NumPy, Matplotlib, Power BI, Excel |
+| 🗄️ **Database** | MySQL, SQLite |
+| ⚙️ **Tools & Version Control** | Git, GitHub, Visual Studio Code |
 
 ---
 
